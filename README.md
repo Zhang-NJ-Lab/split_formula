@@ -7,12 +7,13 @@
 
 案列2：Formular1 = "FA0.2MA0.7APA0.1Pb0.8Sn0.2Cl0.9F1.1I1"
 
-
+···
 def split_formula(s):
 
     t = re.findall(r'[\d+<\.\d+>?]+|[a-zA-Z]+',s)
     
     return(t)
+···
 
 import pandas as pd
 
