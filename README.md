@@ -29,23 +29,16 @@ data
 
 ```
 def split_formula_test0(s):
-
     t = re.findall(r'[\d+<\.\d+>?]+|[a-zA-Z]+',s)
-    
-    u = pd.DataFrame(t)
-    
-    v = u.T
-    
+    u = pd.DataFrame(t)   
+    v = u.T   
     return(v)
 ```
 
 ```
 def split_formula_test1_2Dwrong(s):
-
-    t = re.findall(r'[\d+<\.\d+>?]+|[a-zA-Z]+',s)
-    
-    u = pd.DataFrame(t)
-    
+    t = re.findall(r'[\d+<\.\d+>?]+|[a-zA-Z]+',s)   
+    u = pd.DataFrame(t)   
     v = u.T
     display(v)
 ```
